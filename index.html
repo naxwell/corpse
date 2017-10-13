@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h2>Excuisite Form</h2>
+    <div class="green-line"></div>
+    <h3>Enter things in the form</h3>
+    <div class="form-container">
+      <form id="test-form">
+        <label>Form</label>
+        <div class="input-container">
+          <input id="text-box" name="text" class="input-box" type="text" placeholder="Yes this form"/>
+          <button id="submit-form" class="button" type="submit" >Submit</button>
+        </div>
+        <p id="error" class="error">There was an error with you submission</p>
+        <p id="display" class="success">
+          <span id="text"></span>
+        </p>
+      </form>
+    </div>
+  </div>
+  <script src="formSubmit.js"></script>
+</body>
+</html>
