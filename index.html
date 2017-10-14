@@ -9,22 +9,24 @@
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles.css">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Caveat|Open+Sans|Permanent+Marker" rel="stylesheet">
+  <title>Exquisite Corpse</title>
 </head>
 <body>
   <div class="wrapper">
-    <h2>Excuisite Form</h2>
+    <h2>Exquisite Form</h2>
     <div class="green-line"></div>
-    <h3>Enter things in the form</h3>
+    <h3>Add a limb:</h3>
     <div class="form-container">
       <form id="test-form">
-        <label>Form</label>
+       <!-- <label>Form</label>-->
         <div class="input-container">
-          <input id="text-box" name="text" class="input-box" type="text" placeholder="Yes this form"/>
+          <input id="text-box" name="text" class="input-box" type="text" placeholder="or and organ, or a bone, whatever"/>
           <button id="submit-form" class="button" type="submit" >Submit</button>
         </div>
         <p id="error" class="error">There was an error with you submission</p>
         <p id="display" class="success">
+          <label>Previous Limb:</label>
           <span id="text"></span>
         </p>
       </form>

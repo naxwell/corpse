@@ -1,16 +1,28 @@
+html { 
+  background: url("https://cdn.glitch.com/053fe621-4514-4f01-bad1-5e5c595497e7%2Fheartgrey.jpg?1507940972271") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  font-family: helvetica, sans-serif;
+  font-family: 'Caveat', cursive;
   font-size: 13px;
+  color: #ffffff;
+  /*background-image: url("https://cdn.glitch.com/053fe621-4514-4f01-bad1-5e5c595497e7%2Fheartgrey.jpg?1507940972271");*/
 }
 
 h2 {
-  color: #30373B;
+  color: #f442c5;
   font-size: 32px;
   text-align: center;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
 }
 
 h3 {
-  color: #30373B;
+  color: #ffffff;
   font-size: 20px;
   text-align: center;
 }
@@ -20,6 +32,16 @@ label {
   font-weight: bold;
   text-transform: uppercase;
   margin: 5px 0px;
+   font-family: 'Anton', sans-serif;
+  color:#f442c5;
+  text-align: center;
+  font-size: 20px;
+}
+#text{
+  font-family: 'Anton', sans-serif;
+  color:#ffffff;
+  text-align: center;
+  font-size: 20px;
 }
 
 .wrapper {
@@ -44,8 +66,8 @@ label {
 }
 
 .green-line {
-  border: 1px solid #7AB55C;
-  width: 20px;
+  border: 1px solid #f442c5;
+  width: 100%;
   margin: auto;
 }
 
@@ -57,8 +79,8 @@ label {
 }
 
 .button {
-  background-color: #7AB55C;
-  border: 1px solid #7AB55C;
+  background-color: #f442c5;
+  border: 1px solid #f442c5;
   border-radius: 0px 3px 3px 0px;
   padding: 15px;
   color: #ffffff;
